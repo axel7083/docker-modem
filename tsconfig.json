@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2021",
+    "lib": ["ES2021"],
+
+    "types": ["node"],
+
+    "allowJs": true,
+    "checkJs": false,
+
+    "outDir": "lib",
+
+    "strict": false,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
