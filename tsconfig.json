@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "target": "es2024",
+    "module": "CommonJS",
+    "target": "ES2021",
+    "lib": ["ES2021"],
 
     "types": ["node"],
-    "strict": false,
+
     "allowJs": true,
+    "checkJs": false,
+
     "outDir": "lib",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node"
+
+    "strict": false,
+    "skipLibCheck": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
